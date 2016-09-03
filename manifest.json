@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "我不想看这些东西",
+	"version": "1.0.1",
+	"description": "暂时先不看豆瓣的一拍一吧",
+	"icons": {
+        "128": "images/icon.png"
+    },
+	"content_scripts": [
+    {
+      "matches": ["https://www.douban.com/*"],
+      "css": ["main.css"]
+    }
+  ],
+	"permissions": [
+        "https://www.douban.com/*", "tabs"
+    ]
+}
