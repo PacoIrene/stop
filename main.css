@@ -1,6 +1,6 @@
-#side-ypy,
-#events,
-#fp-sites,
-[href*="https://www.douban.com/doubanapp/app"] {
+.aside {
 	display: none !important;
+}
+#content .article {
+    padding-left: 125px;
 }
