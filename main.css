@@ -1,6 +1,7 @@
 #side-ypy,
 #events,
 #fp-sites,
-[href*="https://www.douban.com/doubanapp/app"] {
+[href*="https://www.douban.com/doubanapp/app"],
+#fp-sites+.mod+.mod {
 	display: none !important;
 }
